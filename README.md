@@ -15,6 +15,9 @@ A compact MySQL schema for a brick-and-mortar guitar store (products, staff, and
 - `Manager(employee_no, bonus)` ← FK → `Employee`
 - `Purchase(purchase_no, customer_name, purchase_date, product_no, employee_no)` ← FKs → `Product`, `Employee`
 
+## Entity-Relationship Diagram
+![MMGuitars ERD](./ERD.png)
+
 ## Getting started
 **Requirements:** MySQL 8.0+  
 **Run:**  
